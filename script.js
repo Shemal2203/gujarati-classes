@@ -22,6 +22,6 @@ function reveal() {
   }
 }
 
-// Attach event listener and trigger once on load
+// Attach event listener and trigger once on load so above-fold items show immediately
 window.addEventListener("scroll", reveal);
 reveal();
